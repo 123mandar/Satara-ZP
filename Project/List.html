@@ -1,0 +1,1109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>List</title>
+    <link href="assests/img/satrazilla-removebg-preview.png" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assests/css/main.css">
+    <style>
+
+        /* * */
+        #body{
+            display: block;
+            /* margin: auto; */
+        }
+        /* menubar css starts here  */
+        #menubar {
+            display: flex;
+        }
+
+        .menubar-items {
+            margin: 10px;
+        }
+
+        .list-group-item:last-child:hover {
+            background-color: #c8c8c8;
+            color: #000;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+
+
+        /* dropdown menu css  */
+        img,
+        svg {
+            vertical-align: text-top;
+        }
+
+        .dropdown-menu-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        @media screen and (max-width: 769px) {
+            #menubar .card {
+                display: none !important;
+
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            #dropdown-menu {
+                display: block !important;
+
+            }
+        }
+
+        @media (max-width: 1180px)  {
+            #tablesSection{
+                margin: 0px 0px;
+            }
+        }
+
+        /* Contenet CSS  */
+
+
+        .content-1,
+        .content-2,
+        .content-3,
+        .content-4,
+        .content-5 {
+            border-radius: 0.375rem;
+            padding: 30px;
+            background-color: #f4f4f4
+        }
+
+        h2 {
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .para-text {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        
+        p{
+            width: 100%;
+        }
+
+        #tablesSection{
+            padding: 0px !important;
+        }
+
+        /* Responsive css  */
+        @media screen and (max-width:500px) {
+            #body {
+                margin: 30px 40px;
+            }
+
+
+            .content {
+                padding: 20px;
+            }
+
+            #links {
+                margin: 40px -25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar section   -->
+
+    <section id="navbar-section">
+
+        <div class="main-header">
+            <div class="img-container">
+                <a href="#">
+                    <img src="assests/img/mob.png" class="rounded" alt="Phone icon" width="25px">
+                    <span>(०२०) २६१३४८०६</span>
+                </a>
+                <a href="#">
+                    <img src="assests/img/mail.png" class="rounded" alt="Mail icon" width="25px">
+                    <span>satarazilla@gov.in</span>
+                </a>
+            </div>
+            <div class="img-container national-emblem">
+                <a href="#"><img src="assests/img/nationalelbem-removebg-preview.png" class="rounded" alt="Mail icon" width="35px"></a>
+            </div>
+            <div class="img-container social-media">
+                <a href="#"><span>Follow us</span></a>
+                <a href="#"><img src="assests/img/Twitter.avif" class="rounded" alt="Twitter" width="25px"></a>
+                <a href="#"><img src="assests/img/yt_logo-removebg-preview.png" class="rounded" alt="YouTube" width="30px"></a>
+                <a href="#"><img src="assests/img/insta_logo-removebg-preview.png" class="rounded" alt="Instagram" width="30px"></a>
+            </div>
+        </div>
+
+        <div class="main-header-img">
+            <img src="assests/img/mahalogo-removebg-preview.png" class="rounded" alt="..." width="80px">
+            <img src="assests/img/satrazilla-removebg-preview.png" class="rounded float-end" alt="..." width="80px">
+            <img src="assests/img/swantantramaha-removebg-preview-removebg-preview.png" class="rounded float-end"
+                alt="..." width="80px">
+        </div>
+        <div class="main-header-img">
+            <h1 style="text-align: center; margin-top: 20px;">
+                Satara Zilla Parishad
+            </h1>
+        </div>
+        <div id="Navbar">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav" style="margin-left:50px;">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="main.html" target="_blank"><b>Home</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="About.html" target="_blank"><b>About District</b></a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="Zilla Parishad.html" target="_blank"><b>Zilla Parishad</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Dept&Schemes.html" target="_blank"><b>Dept
+                                        & Schemes</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Act.html" target="_blank"><b>Acts</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Structure.html" target="_blank"><b>Structure</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Honorable.html" target="_blank"><b>Honorable</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Office.html" target="_blank"><b>Office Bearer</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active-page" href="List.html" style="background-color: #e6f2ff;"><b>List</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Right.html" target="_blank"><b>Right To Information</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Forecast.html" target="_blank"><b>Forecast Sheet</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Map.html" target="_blank"><b>Map</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Corona.html" target="_blank"><b>Corona Section</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Other.html" target="_blank"><b>Other </b></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </section>
+
+    <section id="breadcrumb">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" >
+                    <path
+                        d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z" />
+                </svg>
+                <li class="breadcrumb-item"><a href="main.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">List</li>
+            </ol>
+        </nav>
+    </section>
+
+    <!-- SECTION BODY  -->
+    <section id="body">
+
+        <section id="dropdown-menu" style="display: none;">
+            <div class="dropdown-menu-container">
+                <p class="d-inline-flex  gap-1  ">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"
+                        style="width:18rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                            <path
+                                d="M280-600v-80h560v80H280Zm0 160v-80h560v80H280Zm0 160v-80h560v80H280ZM160-600q-17 0-28.5-11.5T120-640q0-17 11.5-28.5T160-680q17 0 28.5 11.5T200-640q0 17-11.5 28.5T160-600Zm0 160q-17 0-28.5-11.5T120-480q0-17 11.5-28.5T160-520q17 0 28.5 11.5T200-480q0 17-11.5 28.5T160-440Zm0 160q-17 0-28.5-11.5T120-320q0-17 11.5-28.5T160-360q17 0 28.5 11.5T200-320q0 17-11.5 28.5T160-280Z"
+                                fill="white" />
+                        </svg>
+                        Departments and Schemes
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="card" style="width: 18rem;">
+                        <ul class="list-group list-group-flush">
+                            <a href="" id="dropdown-content1-link" style="text-decoration: none;">
+                                <li class="list-group-item">An item 1</li>
+                            </a>
+                            <a href="" id="dropdown-content2-link" style="text-decoration: none;">
+                                <li class="list-group-item">An item 2</li>
+                            </a>
+                            <a href="" id="dropdown-content3-link" style="text-decoration: none;">
+                                <li class="list-group-item">An item 3</li>
+                            </a>
+                            <a href="" id="dropdown-content4-link" style="text-decoration: none;">
+                                <li class="list-group-item">An item 4</li>
+                            </a>
+                            <a href="" id="dropdown-content5-link" style="text-decoration: none;">
+                                <li class="list-group-item">An item 5</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="menubar">
+            <div class="menubar-items">
+                <div class="card" style="width: 20rem; background-color:#1b6aa2; ">
+                    <div class="card-header" id="dropdownToggle">
+                        Departments and Schemes
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <a href="" id="content1-link" style="text-decoration: none;">
+                            <li class="list-group-item">1 An item</li>
+                        </a>
+                        <a href="" id="content2-link" style="text-decoration: none;">
+                            <li class="list-group-item">2 An item</li>
+                        </a>
+                        <a href="" id="content3-link" style="text-decoration: none;">
+                            <li class="list-group-item">3 An item</li>
+                        </a>
+                        <a href="" id="content4-link" style="text-decoration: none;">
+                            <li class="list-group-item">4 An item</li>
+                        </a>
+                        <a href="" id="content5-link" style="text-decoration: none;">
+                            <li class="list-group-item">5 An item</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="menubar-items">
+                <div class="content-1">
+                    <h2>1. Zilla Parishad Annual Administration Reports</h2>
+
+                    <h2>Panchayat Raj and its Establishment</h2>
+                    <p class="para-text">
+                        Panchayat Raj, an innovative experiment in shaping modern India, was recommended by the
+                        Balwantrai
+                        Mehta Committee. The Government of Maharashtra enacted the Maharashtra Zilla Parishad and
+                        Panchayat
+                        Committees Act, 1961, establishing a three-tier Panchayat Raj system.
+                    </p>
+                    <div id="tablesSection">
+                        <h4>Satara District</h4>
+                        <h6>Annual Administration Report Year 2016-17</h6>
+
+                        <div class="tableContainer">
+                            <table class="innerTable">
+                                <caption>
+                                    <th style="color: black; background-color:#f4f4f4 ; text-align: left; ">Satara
+                                        District
+                                        Geographic
+                                        Information</th>
+                                </caption>
+                                <tr>
+                                    <th style="text-align: left;">Geographic Information</th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+
+                                <!-- Additional rows can be added here -->
+                            </table>
+
+                            <table class="innerTable">
+                                <tr>
+                                    <th>Agriculture (Area in Hectares)</th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <!-- Additional rows can be added here -->
+                            </table>
+
+                            <table class="innerTable">
+                                <tr>
+                                    <th>Major irrigation projects</th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <!-- Additional rows can be added here -->
+                            </table>
+                            <table class="innerTable">
+                                <tr>
+                                    <th>Important industries</th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                </tr>
+                            </table>
+                            <table class="innerTable">
+                                <tr>
+                                    <th>Cooperation</th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <!-- Additional rows can be added here -->
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-2" style="display: none;">
+                    <h2>2. Zilla Parishad Annual Administration Reports</h2>
+
+                    <h2>Panchayat Raj and its Establishment</h2>
+                    <p class="para-text">
+                        Panchayat Raj, an innovative experiment in shaping modern India, was recommended by the
+                        Balwantrai
+                        Mehta Committee. The Government of Maharashtra enacted the Maharashtra Zilla Parishad and
+                        Panchayat
+                        Committees Act, 1961, establishing a three-tier Panchayat Raj system.
+                    </p>
+                    <div class="tableContainer">
+                        <table class="innerTable">
+                            <caption>
+                                <th style="color: black; background-color:#f4f4f4 ; text-align: left; ">Satara
+                                    District
+                                    Geographic
+                                    Information</th>
+                            </caption>
+                            <tr>
+                                <th style="text-align: left;">Geographic Information</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+
+                            <!-- Additional rows can be added here -->
+                        </table>
+
+                        <table class="innerTable">
+                            <tr>
+                                <th>Agriculture (Area in Hectares)</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <!-- Additional rows can be added here -->
+                        </table>
+
+                        <table class="innerTable">
+                            <tr>
+                                <th>Major irrigation projects</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <!-- Additional rows can be added here -->
+                        </table>
+                        <table class="innerTable">
+                            <tr>
+                                <th>Important industries</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                            </tr>
+                        </table>
+                        <table class="innerTable">
+                            <tr>
+                                <th>Cooperation</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                            <!-- Additional rows can be added here -->
+                        </table>
+                    </div>
+                </div>
+                </div>
+
+                <div class="content-3" style="display: none;">
+                    <h2>3. Zilla Parishad Annual Administration Reports</h2>
+
+                    <h2>Panchayat Raj and its Establishment</h2>
+                    <p class="para-text">
+                        Panchayat Raj, an innovative experiment in shaping modern India, was recommended by the
+                        Balwantrai
+                        Mehta Committee. The Government of Maharashtra enacted the Maharashtra Zilla Parishad and
+                        Panchayat
+                        Committees Act, 1961, establishing a three-tier Panchayat Raj system.
+                    </p>
+                    <p class="para-text">
+                        The Satara District Council, guided by Yashwantraoji Chavan, was established in May 1962.
+                        Abasaheb
+                        Parlekar served as its first president. Presently, 11 Panchayat Samitis and 1501 Gram Panchayats
+                        are
+                        dedicated to rural development.
+                    </p>
+
+                    <h2>Empowerment and Evolution</h2>
+                    <p class="para-text">
+                        Through the 73rd Constitutional Amendment, women were granted participation in governance, and
+                        Gram
+                        Sabhas received enhanced powers. Satara Zilla Parishad remains at the forefront of implementing
+                        governmental schemes and campaigns for the betterment of rural areas.
+                    </p>
+                </div>
+
+                <div class="content-4" style="display: none;">
+                    <h2>4. Zilla Parishad Annual Administration Reports</h2>
+
+                    <h2>Panchayat Raj and its Establishment</h2>
+                    <p class="para-text">
+                        Panchayat Raj, an innovative experiment in shaping modern India, was recommended by the
+                        Balwantrai
+                        Mehta Committee. The Government of Maharashtra enacted the Maharashtra Zilla Parishad and
+                        Panchayat
+                        Committees Act, 1961, establishing a three-tier Panchayat Raj system.
+                    </p>
+                    <p class="para-text">
+                        The Satara District Council, guided by Yashwantraoji Chavan, was established in May 1962.
+                        Abasaheb
+                        Parlekar served as its first president. Presently, 11 Panchayat Samitis and 1501 Gram Panchayats
+                        are
+                        dedicated to rural development.
+                    </p>
+
+                    <h2>Empowerment and Evolution</h2>
+                    <p class="para-text">
+                        Through the 73rd Constitutional Amendment, women were granted participation in governance, and
+                        Gram
+                        Sabhas received enhanced powers. Satara Zilla Parishad remains at the forefront of implementing
+                        governmental schemes and campaigns for the betterment of rural areas.
+                    </p>
+                </div>
+
+                <div class="content-5" style="display: none;">
+                    <h2>5. Zilla Parishad Annual Administration Reports</h2>
+
+                    <h2>Panchayat Raj and its Establishment</h2>
+                    <p class="para-text">
+                        Panchayat Raj, an innovative experiment in shaping modern India, was recommended by the
+                        Balwantrai
+                        Mehta Committee. The Government of Maharashtra enacted the Maharashtra Zilla Parishad and
+                        Panchayat
+                        Committees Act, 1961, establishing a three-tier Panchayat Raj system.
+                    </p>
+                    <p class="para-text">
+                        The Satara District Council, guided by Yashwantraoji Chavan, was established in May 1962.
+                        Abasaheb
+                        Parlekar served as its first president. Presently, 11 Panchayat Samitis and 1501 Gram Panchayats
+                        are
+                        dedicated to rural development.
+                    </p>
+
+                    <h2>Empowerment and Evolution</h2>
+                    <p class="para-text">
+                        Through the 73rd Constitutional Amendment, women were granted participation in governance, and
+                        Gram
+                        Sabhas received enhanced powers. Satara Zilla Parishad remains at the forefront of implementing
+                        governmental schemes and campaigns for the betterment of rural areas.
+                    </p>
+                </div>
+
+                
+            </div>
+
+        </section>
+
+
+
+        <!-- Links SEction  -->
+        <section id="links">
+            <div>
+                <h4
+                    style="font-weight: bold;background-color:#1b6aa2; color: #ffffff; text-align: center; margin-bottom: 40px;">
+                    Important Links</h4>
+            </div>
+            <div class="link-container">
+                <div class="link-items">
+                    <a href=""><img src="assests/img/rti.png" alt="" style="max-width: 60px;"></a>
+                    <p>#Link</p>
+                </div>
+                <div class="link-items">
+                    <a href=""><img src="assests/img/rti.png" alt="" style="max-width: 60px;"></a>
+                    <p>#Link</p>
+                </div>
+                <div class="link-items">
+                    <a href=""><img src="assests/img/rti.png" alt="" style="max-width: 60px;"></a>
+                    <p>#Link</p>
+                </div>
+                <div class="link-items">
+                    <a href=""><img src="assests/img/rti.png" alt="" style="max-width: 60px;"></a>
+                    <p>#Link</p>
+                </div>
+                <div class="link-items">
+                    <a href=""><img src="assests/img/rti.png" alt="" style="max-width: 60px;"></a>
+                    <p>#Link</p>
+                </div>
+                <div class="link-items">
+                    <a href=""><img src="assests/img/rti.png" alt="" style="max-width: 60px;"></a>
+                    <p>#Link</p>
+                </div>
+            </div>
+        </section>
+
+
+
+    </section>
+
+
+    <!-- FOTTER SECTION  -->
+    <section>
+        <div class="footer">
+            <div class="foot-item">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.213479830364!2d74.01299387494203!3d17.687372583251893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc239e8e740eeff%3A0x1ed5b954b365da9b!2sZilla%20Parishad%20Satara!5e0!3m2!1sen!2sin!4v1703580532349!5m2!1sen!2sin"
+                    width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="foot-item">
+                <h5>National Leval Links</h5>
+                <p><a href="">Government of India</a></p>
+                <p><a href="">Supreme Court, Delhi</a></p>
+                <p><a href="">Prime Minister's Office</a></p>
+                <p><a href="">Election Commission of India</a></p>
+                <p><a href="">Aadhaar Card Portal</a></p>
+                <p><a href="">Mary Sarkar Portal</a></p>
+                <p><a href="">Digital Locker Portal</a></p>
+            </div>
+            <div class="foot-item">
+                <h5>State Leval Links</h5>
+                <p><a href="">Bombay High Court</a></p>
+                <p><a href="">Government of Maharashtra</a></p>
+                <p><a href="">Maharashtra State Election Commission</a></p>
+                <p><a href="">Village Development </a></p>
+                <p><a href="">Your Government Portal</a></p>
+                <p><a href="">Grand tender </a></p>
+                <p><a href="">Mahaonline</a></p>
+            </div>
+            <div class="foot-item">
+                <h5>District Leval Links</h5>
+                <p><a href="">Office of the Divisional Commissioner</a></p>
+                <p><a href="">Collector's Office</a></p>
+                <p><a href="">Satara Rural Police</a></p>
+                <p><a href="">Anti-Corruption Centre</a></p>
+                <p><a href="">Mahaonline</a></p>
+            </div>
+    </section>
+
+    <section>
+        <div class="copyright">
+            Copyright ©2023 www.MH-11 Hotel.com. All rights reserved.
+
+            All content on this website, including text, graphics, logos, icons, images, audio clips, and software,
+            is the
+            property of www.MH-11 Hotel.com or its content suppliers and is protected by international copyright
+            laws.
+        </div>
+    </section>
+    <script>
+        // Sticky Navbar
+        window.addEventListener('scroll', function () {
+            myFunction();
+            showButtonOnScroll();
+        });
+
+        var navbar = document.getElementById("Navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky");
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+
+        // top button 
+        function goToTop() {
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+        }
+
+        function showButtonOnScroll() {
+            const btn = document.getElementById('goToTopBtn');
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                btn.classList.add('show');
+            } else {
+                btn.classList.remove('show');
+            }
+        }
+
+
+        //  Drop Down Menubar 
+        document.addEventListener('DOMContentLoaded', function () {
+            const dropdownToggle = document.getElementById('dropdownToggle');
+            const dropdownList = document.getElementById('dropdownList');
+            const barsIcon = document.querySelector('.fa-bars');
+
+            dropdownList.classList.remove('show');
+
+            dropdownToggle.addEventListener('click', function () {
+                dropdownList.classList.toggle('show');
+                barsIcon.classList.toggle('rotate-icon');
+            });
+
+            window.addEventListener('click', function (e) {
+                if (!dropdownToggle.contains(e.target)) {
+                    dropdownList.classList.remove('show');
+                    barsIcon.classList.remove('rotate-icon');
+                }
+            });
+
+            // Prevent the list from closing when clicking inside it
+            dropdownList.addEventListener('click', function (e) {
+                e.stopPropagation(); // Prevent the click from propagating to the window
+            });
+        });
+
+
+        // CONTENT SWAPPING JS 
+        document.addEventListener("DOMContentLoaded", function () {
+            // Get the content containers
+            const content1 = document.querySelector('.content-1');
+            const content2 = document.querySelector('.content-2');
+            const content3 = document.querySelector('.content-3');
+            const content4 = document.querySelector('.content-4');
+            const content5 = document.querySelector('.content-5');
+
+            // Get the link for content for Menubar 
+            const content1Link = document.getElementById('content1-link');
+            const content2Link = document.getElementById('content2-link');
+            const content3Link = document.getElementById('content3-link');
+            const content4Link = document.getElementById('content4-link');
+            const content5Link = document.getElementById('content5-link');
+
+            // Get the link for content for Drop down-menubar 
+            const dropdownContent1Link = document.getElementById('dropdown-content1-link');
+            const dropdownContent2Link = document.getElementById('dropdown-content2-link');
+            const dropdownContent3Link = document.getElementById('dropdown-content3-link');
+            const dropdownContent4Link = document.getElementById('dropdown-content4-link');
+            const dropdownContent5Link = document.getElementById('dropdown-content5-link');
+
+
+            // FOR MENUBARSWAPPING 
+
+            // Add click event to the link
+            content5Link.addEventListener('click', function (event) {
+                // Prevent the default behavior of the link
+                event.preventDefault();
+
+                // Hide content-1 and show content-2
+                content1.style.display = 'none';
+                content2.style.display = 'none';
+                content3.style.display = 'none';
+                content4.style.display = 'none';
+                content5.style.display = 'block';
+            });
+
+            // Add click event to the link
+            content4Link.addEventListener('click', function (event) {
+                // Prevent the default behavior of the link
+                event.preventDefault();
+
+                // Hide content-1 and show content-2
+                content1.style.display = 'none';
+                content2.style.display = 'none';
+                content3.style.display = 'none';
+                content5.style.display = 'none';
+                content4.style.display = 'block';
+            });
+
+            // Add click event to the link
+            content3Link.addEventListener('click', function (event) {
+                // Prevent the default behavior of the link
+                event.preventDefault();
+
+                // Hide content-1 and show content-2
+                content1.style.display = 'none';
+                content2.style.display = 'none';
+                content4.style.display = 'none';
+                content5.style.display = 'none';
+                content3.style.display = 'block';
+            });
+
+            // Add click event to the link
+            content2Link.addEventListener('click', function (event) {
+                // Prevent the default behavior of the link
+                event.preventDefault();
+
+                // Hide content-1 and show content-2
+                content3.style.display = 'none';
+                content5.style.display = 'none';
+                content4.style.display = 'none';
+                content1.style.display = 'none';
+                content2.style.display = 'block';
+            });
+
+
+            // Add click event to the link
+            content1Link.addEventListener('click', function (event) {
+                // Prevent the default behavior of the link
+                event.preventDefault();
+
+                // Hide content-2 and show content-1
+                content5.style.display = 'none';
+                content4.style.display = 'none';
+                content3.style.display = 'none';
+                content2.style.display = 'none';
+                content1.style.display = 'block';
+            });
+
+            // FOR DROP DOWNMENUBAR SWAPPING 
+            // FOR MENUBARSWAPPING 
+
+            // Add click event to the link
+            dropdownContent5Link.addEventListener('click', function (event) {
+                // Prevent the default behavior of the link
+                event.preventDefault();
+
+                // Hide content-1 and show content-2
+                content1.style.display = 'none';
+                content2.style.display = 'none';
+                content3.style.display = 'none';
+                content4.style.display = 'none';
+                content5.style.display = 'block';
+            });
+
+            // Add click event to the link
+            dropdownContent4Link.addEventListener('click', function (event) {
+                // Prevent the default behavior of the link
+                event.preventDefault();
+
+                // Hide content-1 and show content-2
+                content1.style.display = 'none';
+                content2.style.display = 'none';
+                content3.style.display = 'none';
+                content5.style.display = 'none';
+                content4.style.display = 'block';
+            });
+
+            // Add click event to the link
+            dropdownContent3Link.addEventListener('click', function (event) {
+                // Prevent the default behavior of the link
+                event.preventDefault();
+
+                // Hide content-1 and show content-2
+                content1.style.display = 'none';
+                content2.style.display = 'none';
+                content4.style.display = 'none';
+                content5.style.display = 'none';
+                content3.style.display = 'block';
+            });
+
+            // Add click event to the link
+            dropdownContent2Link.addEventListener('click', function (event) {
+                // Prevent the default behavior of the link
+                event.preventDefault();
+
+                // Hide content-1 and show content-2
+                content3.style.display = 'none';
+                content5.style.display = 'none';
+                content4.style.display = 'none';
+                content1.style.display = 'none';
+                content2.style.display = 'block';
+            });
+
+
+            // Add click event to the link
+            dropdownContent1Link.addEventListener('click', function (event) {
+                // Prevent the default behavior of the link
+                event.preventDefault();
+
+                // Hide content-2 and show content-1
+                content5.style.display = 'none';
+                content4.style.display = 'none';
+                content3.style.display = 'none';
+                content2.style.display = 'none';
+                content1.style.display = 'block';
+            });
+        });
+
+
+
+    </script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <button onclick="goToTop()" id="goToTopBtn" title="Go to Top">Top</button>
+
+</body>
+
+</html>
